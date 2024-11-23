@@ -1,17 +1,21 @@
 .todo-item {
-    background-color: rgb(63, 105, 127);
-    color:rgb(179, 190, 201);
+    background-color: rgb(42, 91, 255);
+    color:white;
     border-radius: 15%;
     max-width: fit-content;
     margin: 1rem;
     padding: .5rem;
+    font-family: sans-serif;
 }
 
 .todo-item.completed {
-    background-color: rgb(77, 77, 77);
-    color:rgb(181, 181, 181)
-}
+    background-color: slategray;
+    color:lightgray}
 
 .todo-list {
     margin-bottom: 3rem;
+}
+
+.todo-list-title {
+    font-family: sans-serif;
 }
