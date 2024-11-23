@@ -2,11 +2,11 @@ import List from "./List"
 import { mockTodoList } from "./mockData"
 
 export default function Home() {
-  const notDone = mockTodoList.items.filter(todo =>
-      !todo.completed
+  const notDone = mockTodoList.items.filter(item =>
+      !item.completed
   )
-  const completedTodos = mockTodoList.items.filter(todo =>
-      todo.completed
+  const completedTodos = mockTodoList.items.filter(item =>
+    item.completed
   )
   return (
     <>
