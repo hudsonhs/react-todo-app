@@ -8,7 +8,7 @@ export default function List({title, items}) {
             {items.map(item =>
                 <ListItem
                     key={item.id}
-                    todo={item}
+                    item={item}
                 />
             )}
         </div>

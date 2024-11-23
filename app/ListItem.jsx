@@ -1,9 +1,9 @@
 import './styles/style.css'
 
-export default function ListItem( {todo}) {
+export default function ListItem( {item}) {
     return (
-        <div className={`list-item ${todo.completed ? 'completed' : ''}`}>
-            {todo.text} {todo.completed && '✅'}
+        <div className={`list-item ${item.completed ? 'completed' : ''}`}>
+            {item.text} {item.completed && '✅'}
         </div>
     )
 }
