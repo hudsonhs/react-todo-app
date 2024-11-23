@@ -1,21 +1,20 @@
-.todo-item {
+.list-item {
     background-color: rgb(42, 91, 255);
     color:white;
     border-radius: 15%;
     max-width: fit-content;
     margin: 1rem;
     padding: .5rem;
-    font-family: sans-serif;
 }
 
-.todo-item.completed {
+.list-item.completed {
     background-color: slategray;
     color:lightgray}
 
-.todo-list {
+.list {
     margin-bottom: 3rem;
 }
 
-.todo-list-title {
+body {
     font-family: sans-serif;
 }

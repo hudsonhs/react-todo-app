@@ -1,4 +1,4 @@
-import TodoList from "./TodoList"
+import List from "./List"
 import { mockTodoList } from "./mockData"
 
 export default function Home() {
@@ -10,13 +10,14 @@ export default function Home() {
   )
   return (
     <>
-      <TodoList
-        title={mockTodoList.title}
-        list={notDone}
+    <h1>{mockTodoList.title}</h1>
+      <List
+        title='Todo'
+        items={notDone}
       />
-      <TodoList
-        title={`Completed for ${mockTodoList.title}`}
-        list={completedTodos}
+      <List
+        title='Completed'
+        items={completedTodos}
       />
     </>
   )
